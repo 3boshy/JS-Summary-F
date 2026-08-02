@@ -1,0 +1,110 @@
+:root {
+  color-scheme: light;
+  --font-ui: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-bg: #f7f8fb;
+  --color-bg-elevated: rgba(255, 255, 255, 0.74);
+  --color-surface: rgba(255, 255, 255, 0.82);
+  --color-surface-strong: #ffffff;
+  --color-surface-muted: rgba(247, 249, 252, 0.9);
+  --color-text: #101318;
+  --color-text-muted: #606976;
+  --color-text-soft: #8a93a1;
+  --color-border: rgba(20, 28, 38, 0.1);
+  --color-border-strong: rgba(20, 28, 38, 0.16);
+  --color-accent: #21b8f3;
+  --color-accent-strong: #067fc0;
+  --color-accent-soft: rgba(33, 184, 243, 0.14);
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-favorite: #ff3b7f;
+  --color-overlay: rgba(10, 13, 18, 0.42);
+
+  --gradient-page:
+    linear-gradient(132deg, rgba(33, 184, 243, 0.18) 0%, transparent 42%),
+    linear-gradient(218deg, rgba(108, 92, 231, 0.12) 0%, transparent 44%),
+    linear-gradient(180deg, #fbfcff 0%, #eef4f8 44%, #f8fafc 100%);
+  --gradient-hero: linear-gradient(135deg, #21b8f3 0%, #65d8ff 46%, #1ca9e9 100%);
+  --gradient-card: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,255,255,0.68));
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+
+  --radius-xs: 10px;
+  --radius-sm: 14px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 30px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 14px 34px rgba(31, 41, 55, 0.1);
+  --shadow-card: 0 18px 42px rgba(31, 41, 55, 0.12);
+  --shadow-float: 0 24px 70px rgba(6, 127, 192, 0.22);
+  --shadow-inner: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+
+  --blur-glass: 22px;
+  --motion-fast: 160ms;
+  --motion-base: 260ms;
+  --motion-slow: 520ms;
+  --spring: cubic-bezier(0.2, 0.9, 0.2, 1.08);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --bottom-nav-height: 78px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #07090d;
+  --color-bg-elevated: rgba(16, 19, 26, 0.72);
+  --color-surface: rgba(20, 24, 32, 0.78);
+  --color-surface-strong: #151a22;
+  --color-surface-muted: rgba(12, 15, 20, 0.82);
+  --color-text: #f4f7fb;
+  --color-text-muted: #a5adba;
+  --color-text-soft: #6f7a89;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-strong: rgba(255, 255, 255, 0.18);
+  --color-overlay: rgba(0, 0, 0, 0.58);
+  --gradient-page:
+    linear-gradient(132deg, rgba(33, 184, 243, 0.18) 0%, transparent 42%),
+    linear-gradient(218deg, rgba(121, 85, 255, 0.11) 0%, transparent 44%),
+    linear-gradient(180deg, #090c11 0%, #0c1117 44%, #090c11 100%);
+  --gradient-card: linear-gradient(145deg, rgba(25, 30, 39, 0.92), rgba(17, 21, 28, 0.76));
+  --shadow-soft: 0 14px 34px rgba(0, 0, 0, 0.28);
+  --shadow-card: 0 18px 42px rgba(0, 0, 0, 0.34);
+  --shadow-inner: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-bg: #07090d;
+    --color-bg-elevated: rgba(16, 19, 26, 0.72);
+    --color-surface: rgba(20, 24, 32, 0.78);
+    --color-surface-strong: #151a22;
+    --color-surface-muted: rgba(12, 15, 20, 0.82);
+    --color-text: #f4f7fb;
+    --color-text-muted: #a5adba;
+    --color-text-soft: #6f7a89;
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-border-strong: rgba(255, 255, 255, 0.18);
+    --color-overlay: rgba(0, 0, 0, 0.58);
+    --gradient-page:
+      linear-gradient(132deg, rgba(33, 184, 243, 0.18) 0%, transparent 42%),
+      linear-gradient(218deg, rgba(121, 85, 255, 0.11) 0%, transparent 44%),
+      linear-gradient(180deg, #090c11 0%, #0c1117 44%, #090c11 100%);
+    --gradient-card: linear-gradient(145deg, rgba(25, 30, 39, 0.92), rgba(17, 21, 28, 0.76));
+    --shadow-soft: 0 14px 34px rgba(0, 0, 0, 0.28);
+    --shadow-card: 0 18px 42px rgba(0, 0, 0, 0.34);
+    --shadow-inner: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+}

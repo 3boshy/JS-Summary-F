@@ -1,0 +1,17 @@
+{
+  "appName": "DNA | LifeStyle",
+  "version": "2.0.0",
+  "defaultTheme": "auto",
+  "locale": "en-US",
+  "currency": "IQD",
+  "pageSize": 36,
+  "cacheTtlMinutes": 30,
+  "features": {
+    "favorites": true,
+    "sales": true,
+    "offline": true,
+    "pullToRefresh": true,
+    "haptics": true,
+    "savedFilters": true
+  }
+}

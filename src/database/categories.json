@@ -1,0 +1,117 @@
+[
+  {
+    "id": "phones",
+    "title": "Phones",
+    "icon": "smartphone",
+    "keywords": [
+      "iphone",
+      "galaxy",
+      "fold",
+      "s ultra",
+      "honor x",
+      "honor magic v",
+      "huawei nova"
+    ],
+    "description": "Phones and mobile devices",
+    "count": 84,
+    "visible": true
+  },
+  {
+    "id": "tablets",
+    "title": "Tablets",
+    "icon": "tablet",
+    "keywords": [
+      "ipad",
+      "tablet",
+      "tab",
+      "matepad",
+      "magicpad"
+    ],
+    "description": "Tablets and iPads",
+    "count": 35,
+    "visible": true
+  },
+  {
+    "id": "audio",
+    "title": "Audio",
+    "icon": "headphones",
+    "keywords": [
+      "airpods",
+      "earpods",
+      "headset",
+      "earbuds",
+      "headphones",
+      "freebuds",
+      "freeclip",
+      "freearc",
+      "buds"
+    ],
+    "description": "Earbuds, headphones, and audio gear",
+    "count": 21,
+    "visible": true
+  },
+  {
+    "id": "watches",
+    "title": "Watches",
+    "icon": "watch",
+    "keywords": [
+      "watch",
+      "band"
+    ],
+    "description": "Smart watches and bands",
+    "count": 38,
+    "visible": true
+  },
+  {
+    "id": "laptops",
+    "title": "Laptops",
+    "icon": "laptop",
+    "keywords": [
+      "macbook",
+      "laptop",
+      "surface laptop",
+      "rog strix",
+      "tuf gaming",
+      "alienware",
+      "omen",
+      "razer blade"
+    ],
+    "description": "Laptops and notebooks",
+    "count": 11,
+    "visible": true
+  },
+  {
+    "id": "monitors",
+    "title": "Monitors",
+    "icon": "monitor",
+    "keywords": [
+      "monitor",
+      "odyssey"
+    ],
+    "description": "Displays and screens",
+    "count": 8,
+    "visible": true
+  },
+  {
+    "id": "desktops",
+    "title": "Desktops",
+    "icon": "desktop",
+    "keywords": [
+      "all in one",
+      "aio",
+      "thinkcentre"
+    ],
+    "description": "Desktop computers and all-in-ones",
+    "count": 2,
+    "visible": true
+  },
+  {
+    "id": "accessories",
+    "title": "Accessories",
+    "icon": "package",
+    "keywords": [],
+    "description": "Accessories and extras",
+    "count": 1,
+    "visible": true
+  }
+]

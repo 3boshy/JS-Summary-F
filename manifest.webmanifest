@@ -1,0 +1,12 @@
+{
+  "name": "DNA | LifeStyle",
+  "short_name": "DNA",
+  "description": "Fast internal inventory search for DNA employees.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f8fb",
+  "theme_color": "#21B8F3",
+  "dir": "ltr",
+  "lang": "en",
+  "icons": []
+}

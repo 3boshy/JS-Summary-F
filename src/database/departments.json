@@ -1,0 +1,92 @@
+[
+  {
+    "id": "apple",
+    "title": "Apple",
+    "description": "81 active stock items",
+    "color": "#A3AAB2",
+    "icon": "building",
+    "count": 81,
+    "visible": true
+  },
+  {
+    "id": "samsung",
+    "title": "Samsung",
+    "description": "43 active stock items",
+    "color": "#1E5AC8",
+    "icon": "building",
+    "count": 43,
+    "visible": true
+  },
+  {
+    "id": "huawei",
+    "title": "Huawei",
+    "description": "40 active stock items",
+    "color": "#E1000F",
+    "icon": "building",
+    "count": 40,
+    "visible": true
+  },
+  {
+    "id": "honor",
+    "title": "Honor",
+    "description": "25 active stock items",
+    "color": "#00AEEF",
+    "icon": "building",
+    "count": 25,
+    "visible": true
+  },
+  {
+    "id": "asus",
+    "title": "ASUS",
+    "description": "4 active stock items",
+    "color": "#0058A3",
+    "icon": "building",
+    "count": 4,
+    "visible": true
+  },
+  {
+    "id": "dell",
+    "title": "Dell",
+    "description": "2 active stock items",
+    "color": "#0076CE",
+    "icon": "building",
+    "count": 2,
+    "visible": true
+  },
+  {
+    "id": "razer",
+    "title": "RAZER",
+    "description": "2 active stock items",
+    "color": "#44D62C",
+    "icon": "building",
+    "count": 2,
+    "visible": true
+  },
+  {
+    "id": "hp",
+    "title": "HP",
+    "description": "1 active stock items",
+    "color": "#0096D6",
+    "icon": "building",
+    "count": 1,
+    "visible": true
+  },
+  {
+    "id": "lenovo",
+    "title": "Lenovo",
+    "description": "1 active stock items",
+    "color": "#E2231A",
+    "icon": "building",
+    "count": 1,
+    "visible": true
+  },
+  {
+    "id": "microsoft",
+    "title": "Microsoft",
+    "description": "1 active stock items",
+    "color": "#7FBA00",
+    "icon": "building",
+    "count": 1,
+    "visible": true
+  }
+]

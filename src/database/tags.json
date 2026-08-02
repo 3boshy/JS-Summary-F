@@ -1,0 +1,107 @@
+[
+  {
+    "id": "asus",
+    "title": "ASUS",
+    "visible": true
+  },
+  {
+    "id": "apple",
+    "title": "Apple",
+    "visible": true
+  },
+  {
+    "id": "dell",
+    "title": "Dell",
+    "visible": true
+  },
+  {
+    "id": "hp",
+    "title": "HP",
+    "visible": true
+  },
+  {
+    "id": "honor",
+    "title": "Honor",
+    "visible": true
+  },
+  {
+    "id": "huawei",
+    "title": "Huawei",
+    "visible": true
+  },
+  {
+    "id": "lenovo",
+    "title": "Lenovo",
+    "visible": true
+  },
+  {
+    "id": "microsoft",
+    "title": "Microsoft",
+    "visible": true
+  },
+  {
+    "id": "razer",
+    "title": "RAZER",
+    "visible": true
+  },
+  {
+    "id": "samsung",
+    "title": "Samsung",
+    "visible": true
+  },
+  {
+    "id": "in-stock",
+    "title": "In stock",
+    "visible": true
+  },
+  {
+    "id": "limited",
+    "title": "Low stock",
+    "visible": true
+  },
+  {
+    "id": "low-stock",
+    "title": "Low stock",
+    "visible": true
+  },
+  {
+    "id": "تابلت",
+    "title": "Tablets",
+    "visible": true
+  },
+  {
+    "id": "ساعات",
+    "title": "Watches",
+    "visible": true
+  },
+  {
+    "id": "سماعات",
+    "title": "Audio",
+    "visible": true
+  },
+  {
+    "id": "شاشات",
+    "title": "Monitors",
+    "visible": true
+  },
+  {
+    "id": "كمبيوترات",
+    "title": "Desktops",
+    "visible": true
+  },
+  {
+    "id": "لابتوبات",
+    "title": "Laptops",
+    "visible": true
+  },
+  {
+    "id": "ملحقات",
+    "title": "Accessories",
+    "visible": true
+  },
+  {
+    "id": "موبايلات",
+    "title": "Phones",
+    "visible": true
+  }
+]
